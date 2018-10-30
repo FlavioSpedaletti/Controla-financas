@@ -1,0 +1,29 @@
+html,
+body
+	{
+		text-align: center;
+		font:.75em/1.73em "Lucida Sans Unicode", "Lucida Grande", Sans-Serif
+		color:#333;
+	}
+#header
+	{
+		padding-top:10px;
+		background:#efefef;
+	}
+#wrapper
+	{
+		width:900px;
+		background:#fff;
+		margin:0px auto;
+	}
+a
+	{
+		color:#333;
+		text-decoration:none;
+		border-bottom:dotted 1px #666;
+	}
+a:hover
+	{
+		color:#000;
+	}
+#footer { padding:10px 0px; width:100%; text-align:center; font:normal 10px/normal arial; color:#666; }

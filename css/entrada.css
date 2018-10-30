@@ -1,0 +1,132 @@
+html,
+body
+	{
+		text-align: center;
+		font:.75em/1.73em "Lucida Sans Unicode", "Lucida Grande", Sans-Serif
+		color:#333;
+	}
+#header
+	{
+		padding-top:10px;
+		background:#efefef;
+	}
+#wrapper
+	{
+		width:900px;
+		background:#fff;
+		margin:0px auto;
+	}
+h2
+	{
+		margin-bottom:5px;
+		clear: both;
+	}
+#periodo {
+		width: 450px;
+		float: left;
+	}
+	
+	#total-soma {
+		float: right;
+		width: 450px;
+	}
+
+/*
+table {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 12px;
+		width: 900px;
+		text-align: left;
+		border-collapse: collapse;
+	}
+
+table th,
+table tfoot td
+	{
+		font-size: 13px;
+		font-weight: normal;
+		background: #202F4E;
+		border-top: 2px solid #202F23;
+		border-bottom: 1px solid white;
+		color: #fff;
+		padding: 8px;
+	}
+table select {
+		width:150px;
+	}
+table tbody td
+	{
+		border-bottom: 1px solid white;
+		color: #669;
+		border-top: 1px solid white;
+		background: #E8EDFF url("img/gradback.png") repeat-x;
+		padding: 8px;
+	}
+
+table tbody td:hover
+	{
+		background:#f2f2f2;
+		cursor:pointer;
+		text-decoration:underline;
+	}
+table tbody td img
+	{
+		cursor:pointer;
+	}
+	*/
+	
+	
+	
+	/* "Winter Blues" CSS theme for CSS Table Gallery (http://icant.co.uk/csstablegallery/) by Gunta Klavina (http://www.klavina.com) */
+
+table {font: 85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;padding: 0; margin: 0; border-collapse: collapse; color: #333; background: #F3F5F7; width: 900px; text-align: left }
+
+table select {width:150px;}
+
+table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  
+
+table a:visited {color: #777;}
+
+table a:hover {color: #000;}  
+
+table caption {text-align: left; text-transform: uppercase;  padding-bottom: 10px; font: 200% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;}
+
+table thead th {background: #3A4856; padding: 15px 10px; color: #fff; text-align: left; font-weight: normal;}
+
+table tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;}
+
+table tbody {border-bottom: 1px solid #EAECEE;}
+                      
+table tbody td, table tbody th {padding: 10px; background: url("img/td_back.gif") repeat-x; text-align: left;}
+
+table tbody tr {background: #F3F5F7;}
+
+table tbody tr.odd {background: #F0F2F4;}
+
+table tbody  tr:hover {background: #EAECEE; color: #111;}
+
+table tbody td:hover{cursor:pointer;color:blue;text-decoration:underline;}
+	
+table tbody td img, table tfoot td img{cursor:pointer;}
+
+table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif; text-transform: uppercase; background: #fff; padding: 10px;}
+	
+	
+	
+	
+a
+	{
+		color:#333;
+		text-decoration:none;
+		border-bottom:dotted 1px #666;
+	}
+a:hover
+	{
+		color:#000;
+	}
+label
+	{
+	font-weight:bold;
+	display:block;
+	}
+#footer { padding:10px 0px; width:100%; text-align:center; font:normal 10px/normal arial; color:#666; }

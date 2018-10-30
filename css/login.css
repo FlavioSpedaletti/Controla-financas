@@ -1,0 +1,94 @@
+html,
+body
+	{
+		background:#eee;
+		font:normal 11px/normal arial;
+		color:#000;
+		text-align:center;
+		margin:50px 0;
+	}
+h2
+	{
+		color:green;
+	}
+#wrapper
+	{
+		background:#fff;
+		border:1px solid #E5E5E5;
+		margin:0 auto;
+		width:250px;
+		text-align:left;
+		padding:25px;
+		-webkit-border-radius: 5px;  
+		-moz-border-radius: 5px;
+		box-shadow: #C8C8C8 0px 4px 18px;
+		-moz-box-shadow: #C8C8C8 0px 4px 18px;
+		-webkit-box-shadow: #C8C8C8 0px 4px 18px;
+	}
+a
+	{
+		text-decoration:none;
+		color:#000;
+		border-bottom:dotted 1px #000;
+	}
+a:hover
+	{
+		color:#000;
+		border-bottom:solid 1px #000;
+	}
+form
+	{
+		padding:15px; margin:0;
+	}
+#msg
+	{
+	text-align:center; color:red; padding:0px 0 10px 0;
+	}
+label
+	{
+	font-weight:bold;
+	display:block;
+	color:#444;
+	}
+
+.textfield2 {  
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	background: #FFFFFF url('img/bg_form.png') left top repeat-x; /* Só para IE */
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    }  
+  
+.textfield2:hover,
+.textfield2:focus {  
+    border-color: #C9C9C9;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+    }  
+
+.submit input {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #fff;
+	font-weight:bold;
+	-webkit-border-radius: 5px;  
+	-moz-border-radius: 5px;  
+	cursor: pointer;
+    	}  
+
+.submit input:hover,
+.submit input:focus {  
+    background:#627898;
+	color:#ddd;
+    	}  
+
+#wait{ position:absolute; top:0px; left:0px; background:#FF0000; color:#fff; padding:10px; }
+#footer { padding:10px 0px; width:100%; text-align:center; font:normal 10px/normal arial; color:#666; }
